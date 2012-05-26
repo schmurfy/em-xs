@@ -79,3 +79,23 @@ EM::run do
 end
 ```
 
+
+## Contributing
+
+first install dependencies (thanks bundler !)
+```bash
+bundle
+```
+
+then you can run the specs:
+
+```bash
+bundle exec rake
+```
+
+and if you can to do some changes you can start guard to  
+watch the files and restart associated specs in the background:
+```bash
+bundle exec guard
+```
+
